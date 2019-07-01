@@ -21,12 +21,9 @@ public class Solution {
 
     	// initialize array of values to 0
     	int[] arr = new int[queries.length][n];
-    	Arrays.fill(arr, 0);
-
-    	/*
-    	// in case Arrays.fill doesn't work - use this
-    	for(int i = 0; i < n; i++) arr[i] = 0;
-    	*/
+    	//Arrays.fill(arr, 0);
+		for(int i = 0; i < n; i++) arr[i] = 0;
+    	
 
     	int maxvalue = 0;
 	    for(int q = 0; q < queries.length; q++) {	
